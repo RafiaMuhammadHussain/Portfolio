@@ -27,6 +27,9 @@
                     <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mini-projects">Mini Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -39,7 +42,10 @@
                 <!-- Text -->
                 <div class="col-md-6">
                     <h1>Hello, I'm Rafia 👋</h1>
-                    <h1 class="text-primary">Frontend Developer</h1>
+                    <!-- <h1 class="text-primary">Frontend Developer</h1> -->
+                    <h1 class="text-primary">
+                        <span id="typing"></span>
+                    </h1>
                     <p>
                         I am a passionate beginner learning HTML, CSS, Bootstrap & JavaScript.
                         I love building websites and improving my skills every day.
@@ -128,12 +134,13 @@
 
                 <!-- Project 3 -->
                 <div class="col-md-4">
-                    <div class="project-card">
-                        <h5>Restaurant Website</h5>
-                        <p>A responsive restaurant website built using HTML, CSS</p>
-                        <a href="https://rafiamuhammadhussain.github.io/Practice-Project-5/"
-                            class="btn btn-sm btn-primary">Live Demo</a>
-                        <a href="https://github.com/RafiaMuhammadHussain/Practice-Project-5.git"
+                    <div class="mini-card">
+                        <h5>🎲 Dice Battle Game</h5>
+                        <p>A fun dice game built using JavaScript and Bootstrap.</p>
+
+                        <a href="https://rafiamuhammadhussain.github.io/Dice-Game/" class="btn btn-sm btn-primary">Live
+                            Demo</a>
+                        <a href="https://github.com/RafiaMuhammadHussain/Dice-Game.git"
                             class="btn btn-sm btn-outline">GitHub</a>
                     </div>
                 </div>
@@ -141,6 +148,130 @@
             </div>
         </div>
     </section>
+
+    <section class="mini-projects py-5" id="mini-projects">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">Mini JavaScript Projects</h2>
+
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="mini-card">
+                        <h5>🔒 Password Toggle</h5>
+                        <p>Show and hide password functionality using JavaScript.</p>
+
+                        <a href="https://rafiamuhammadhussain.github.io/Js-Show-Hide-Password/"
+                            class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="https://github.com/RafiaMuhammadHussain/Js-Show-Hide-Password.git"
+                            class="btn btn-sm btn-outline">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="mini-card">
+                        <h5>✍ Character Counter</h5>
+                        <p>Live character counter with real-time text updates.</p>
+
+                        <a href="https://rafiamuhammadhussain.github.io/Js-Character-Counter/"
+                            class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="https://github.com/RafiaMuhammadHussain/Js-Character-Counter.git"
+                            class="btn btn-sm btn-outline">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="mini-card">
+                        <h5>⚖ BMI Calculator</h5>
+                        <p>Calculate BMI using height and weight inputs.</p>
+
+                        <a href="https://rafiamuhammadhussain.github.io/BMI-Calculator/"
+                            class="btn btn-sm btn-primary">Live Demo</a>
+                        <a href="https://github.com/RafiaMuhammadHussain/BMI-Calculator.git"
+                            class="btn btn-sm btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Projects Button -->
+            <div class="text-center mt-5">
+                <a href="https://github.com/RafiaMuhammadHussain" target="_blank" class="btn btn-primary px-4 py-2">
+                    Explore More Projects 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack py-5" id="tech">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">Tech Stack</h2>
+
+            <div class="tech-box text-center">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Responsive Design</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="certificates py-5" id="certificates">
+
+        <div class="container text-center">
+
+            <h2 class="mb-4">Certificates</h2>
+
+            <!-- Toggle Button -->
+            <button onclick="toggleCertificates()" class="btn btn-primary mb-4">
+                Show Certificates
+            </button>
+
+            <!-- Hidden Certificates -->
+            <div id="certificate-box" class="row g-4 d-none">
+
+                <!-- Certificate 1 -->
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <img src="./images/html certficate.jpeg" class="img-fluid rounded mb-3" alt="">
+                        <h5>HTML Certificate</h5>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <img src="./images/css cisco certificate.png" class="img-fluid rounded mb-3" alt="">
+                        <h5>CSS Certificate</h5>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <img src="./images/learn a thon.png" class="img-fluid rounded mb-3" alt="">
+                        <h5>Learnathon Certificate</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
     <section class="contact py-5" id="contact">
         <div class="container">
 
@@ -167,6 +298,18 @@
         </div>
     </section>
 
+    <footer class="footer py-3">
+
+        <div class="container text-center">
+
+            <p>
+                © 2026 Rafia Muhammad Hussain | Built with HTML, CSS & JavaScript 💻
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
