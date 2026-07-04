@@ -16,3 +16,14 @@ function toggleCertificates() {
 
   certificates.classList.toggle("d-none");
 }
+
+function changeTheme(button) {
+
+  document.body.classList.toggle("light-mode");
+
+  if (document.body.classList.contains("light-mode")) {
+    button.innerHTML = "☀ Light";
+  } else {
+    button.innerHTML = "🌙 Dark";
+  }
+}
